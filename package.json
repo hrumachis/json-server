@@ -1,0 +1,13 @@
+{
+  "name": "Hrumachi JSON REST API",
+  "version": "0.1.4",
+  "description": "Hrumachi JSON REST API",
+  "main": "db.json",
+  "scripts": {
+    "start": "json-server db.json"
+  },
+  "engines": {
+    "node": "10.11.0"
+  },
+  "license": "MIT"
+}

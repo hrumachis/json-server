@@ -1,13 +1,18 @@
 {
   "name": "staticdata",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Hrumachi JSON REST API",
-  "main": "db.json",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server db.json"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "engines": {
-    "node": "10.11.0"
-  },
-  "license": "MIT"
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Hrumachi",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  }
 }

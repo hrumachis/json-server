@@ -1,5 +1,5 @@
 {
-  "name": "Hrumachi JSON REST API",
+  "name": "staticdata",
   "version": "0.1.4",
   "description": "Hrumachi JSON REST API",
   "main": "db.json",
